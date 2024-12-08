@@ -17,8 +17,8 @@ export default function IntegrationDiagram() {
   }
 
   return (
-    <div className="bg-gray-50 w-full py-24"> {/* Changed to full width and added vertical padding */}
-      <div className="relative max-w-4xl mx-auto h-[400px]"> {/* Moved max-width here and removed p-8 */}
+    <div className="bg-gray-50 w-full"> {/* Removed py-24 to eliminate vertical padding */}
+      <div className="relative max-w-4xl mx-auto h-[400px]"> {/* Moved max-width here and removed any padding */}
         {/* Background gradient */}
         <div className="absolute inset-0" />
 
@@ -146,13 +146,13 @@ export default function IntegrationDiagram() {
 
         <div className="absolute right-1/4 bottom-1/4 translate-x-1/2 translate-y-1/2 w-12 h-12 bg-white rounded-full shadow-lg flex items-center justify-center">
           <div className="relative">
-            <div className="absolute inset-0 bg-purple-400 rounded-full blur-xl opacity-50"></div>
-            <div className="relative z-10 text-orange-500">
-              <IndianRupee className="w-6 h-6" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+            <div className="absolute inset-0 bg-purple-400 rounded-full blur-xl opacity=50"></div>
+            <div className="relative z=10 text-orange=500">
+              <IndianRupee className= "w=6 h=6" />
+           </ div >
+         </ div >
+       </ div >
+     </ div >
+     </div >
   )
 }

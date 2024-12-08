@@ -1,7 +1,6 @@
 "use client"; // This indicates that the component uses client-side rendering
 import React from "react";
 import Image from 'next/image';
-import boyholding from './img/boy-holding.jpg'; // Ensure this path is correct
 const AboutUs = () => {
   return (
     <div id="about" className="bg-gray-50">
@@ -12,7 +11,7 @@ const AboutUs = () => {
             <br />
             Your Time to invest.
           </h1>
-          <p className="text-lg text-gray-600">
+          <p className="text-lg font-normal text-gray-500 max-w-md md:max-w-2xl mx-auto">
           At Alchem Bills, we empower Gen Z to level up their investing game and master financial management with dope resources and tools. We’re all about giving young people the 411 they need to make smart moves because we know that having a solid grip on finance is key to building a secure future.
 
           </p>

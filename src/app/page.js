@@ -15,7 +15,6 @@ export default function Home() {
     <Features />
     <Educate />
     <FancyTestimonialsSlider />
-    <Contact />
     </>  
 
   );

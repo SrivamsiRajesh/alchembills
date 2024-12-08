@@ -12,7 +12,7 @@ const Card = ({ title, description, color, extraClass }) => {
     >
       <div className="relative"> {/* Added relative positioning for arrow */}
         <h2 className="font-bold text-lg">{title}</h2>
-        <p className="mt-2 text-sm">{description}</p> {/* Updated to use description */}
+        <p className="mt-2 text-sm text-lg font-normal text-gray-500 max-w-md md:max-w-2xl mx-auto">{description}</p> {/* Updated to use description */}
       </div>
     </motion.div>
   );
@@ -20,12 +20,12 @@ const Card = ({ title, description, color, extraClass }) => {
 
 const Features = () => {
   return (
-    <div id="features"className="bg-gray-50 flex flex-col items-center justify-center min-h-screen p-8">
+    <div id="features" className="bg-gray-50 flex flex-col items-center justify-center min-h-screen p-0"> {/* Removed top padding */}
       <h1 className="text-4xl font-bold mb-2">Features</h1> {/* Increased size for section title */}
-      <p className="mb-6 text-center text-lg text-gray-700"> {/* Increased size for description and adjusted margin */}
+      <p className="mb-4 text-center text-lg font-normal text-gray-500 max-w-md md:max-w-2xl mx-auto"> {/* Adjusted margin to create space between description and cards */}
         Discover the key features that empower you to take control of your financial future.
       </p>
-      <div className="grid grid-cols-2 gap-8"> {/* Increased gap between columns */}
+      <div className="grid grid-cols-2 gap-8 mt-8"> {/* Added mt-8 to push cards down */}
         {/* Cards with titles and descriptions */}
         <Card 
           title="DYNAMIC" 
