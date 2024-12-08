@@ -11,7 +11,7 @@ const DottedButton = () => {
 
 const Educate = () => {
   return (
-    <div className="bg-gray-50">
+    <div id="educate" className="bg-gray-50">
       <div className="container mx-auto px-4 py-16 flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 text-center md:text-left">
           <h1 className="text-4xl md:text-5xl font-bold text-black leading-tight mb-4">
@@ -23,7 +23,7 @@ const Educate = () => {
             </span>
           </h1>
           <p className="mt-4 text-gray-600 text-lg md:text-xl mb-6"> {/* Added margin-bottom */}
-            At Alchem Bills, we provide you with the tools and knowledge to navigate the world of finance. Learn how to turn your savings into investments and grow your wealth effectively.
+          At Alchem Bills, we provide you with the tools and knowledge to navigate the world of finance. Let’s keep it 100—learning how to turn your savings into investments is key. It’s all about stacking that bread and growing your wealth effectively. Don’t sleep on this opportunity!
           </p>
           <DottedButton /> {/* Added DottedButton component */}
         </div>

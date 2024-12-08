@@ -51,25 +51,31 @@ const FancyTestimonialsSlider = () => {
     <div className="max-w-3xl mx-auto text-center">
       <div className="relative h-32">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[480px] h-[480px] pointer-events-none before:absolute before:inset-0 before:bg-gradient-to-b before:from-indigo-500/25 before:via-indigo-500/5 before:via-25% before:to-indigo-500/0 before:to-75% before:rounded-full before:-z-10">
-          <div className="h-32 [mask-image:_linear-gradient(0deg,transparent,theme(colors.white)_20%,theme(colors.white))]">
-            {testimonials.map((testimonial, index) => (
-              <Transition
-                as="div"
-                key={index}
-                show={active === index}
-                className="absolute inset-0 h-full -z-10"
-                enter="transition ease-[cubic-bezier(0.68,-0.3,0.32,1)] duration-700 order-first"
-                enterFrom="opacity-0 -rotate-[60deg]"
-                enterTo="opacity-100 rotate-0"
-                leave="transition ease-[cubic-bezier(0.68,-0.3,0.32,1)] duration-700"
-                leaveFrom="opacity-100 rotate-0"
-                leaveTo="opacity-0 rotate-[60deg]"
-                beforeEnter={() => heightFix()}
-              >
-                <img className="relative top-11 left-1/2 -translate-x-1/2 rounded-full" src={testimonial.img} width={56} height={56} alt={testimonial.name} />
-              </Transition>
-            ))}
-          </div>
+        <div className="h-32 [mask-image:_linear-gradient(0deg,transparent,theme(colors.white)_20%,theme(colors.white))]">
+  {testimonials.map((testimonial, index) => (
+    <Transition
+      as="div"
+      key={index}
+      show={active === index}
+      className="absolute inset-0 h-full -z-10"
+      enter="transition ease-[cubic-bezier(0.68,-0.3,0.32,1)] duration-700 order-first"
+      enterFrom="opacity-0 -rotate-[60deg]"
+      enterTo="opacity-100 rotate-0"
+      leave="transition ease-[cubic-bezier(0.68,-0.3,0.32,1)] duration-700"
+      leaveFrom="opacity-100 rotate-0"
+      leaveTo="opacity-0 rotate-[60deg]"
+      beforeEnter={() => heightFix()}
+    >
+      <div className="relative top-11 left-1/2 -translate-x-1/2 w-14 h-14 rounded-full overflow-hidden">
+        <img 
+          className="w-full h-full object-cover object-center"
+          src={testimonial.img}
+          alt={testimonial.name}
+        />
+      </div>
+    </Transition>
+  ))}
+</div>
         </div>
       </div>
       {/* Text */}

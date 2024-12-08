@@ -20,7 +20,7 @@ const Card = ({ title, description, color, extraClass }) => {
 
 const Features = () => {
   return (
-    <div className="bg-gray-50 flex flex-col items-center justify-center min-h-screen p-8">
+    <div id="features"className="bg-gray-50 flex flex-col items-center justify-center min-h-screen p-8">
       <h1 className="text-4xl font-bold mb-2">Features</h1> {/* Increased size for section title */}
       <p className="mb-6 text-center text-lg text-gray-700"> {/* Increased size for description and adjusted margin */}
         Discover the key features that empower you to take control of your financial future.

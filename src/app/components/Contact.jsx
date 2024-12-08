@@ -3,7 +3,7 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <div className="bg-gray-50 w-full px-4 py-24"> {/* Added full width and padding */}
+    <div id="contact" className="bg-gray-50 w-full px-4 py-24"> {/* Added full width and padding */}
       <div className="max-w-xs mx-auto"> {/* Moved max-width to an inner div */}
         <header className="mb-6">
           <div className="font-nycd text-xl text-indigo-500 subpixel-antialiased mb-1">Let&apos;s Connect</div>
