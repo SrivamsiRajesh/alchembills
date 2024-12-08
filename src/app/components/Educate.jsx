@@ -23,7 +23,7 @@ const Educate = () => {
             </span>
           </h1>
           <p className="mt-4 text-gray-600 text-lg md:text-xl mb-6"> {/* Added margin-bottom */}
-          At Alchem Bills, we provide you with the tools and knowledge to navigate the world of finance. Let’s keep it 100—learning how to turn your savings into investments is key. It’s all about stacking that bread and growing your wealth effectively. Don’t sleep on this opportunity!
+          At Alchem Bills, we provide you with the tools and knowledge to navigate the world of finance. Let&apos;s keep it 100—learning how to turn your savings into investments is key. It&apos;s all about stacking that bread and growing your wealth effectively. Don&apos;t sleep on this opportunity!
           </p>
           <DottedButton /> {/* Added DottedButton component */}
         </div>
