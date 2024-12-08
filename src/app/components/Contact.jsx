@@ -6,7 +6,7 @@ const Contact = () => {
     <div className="bg-gray-50 w-full px-4 py-24"> {/* Added full width and padding */}
       <div className="max-w-xs mx-auto"> {/* Moved max-width to an inner div */}
         <header className="mb-6">
-          <div className="font-nycd text-xl text-indigo-500 subpixel-antialiased mb-1">Let's Connect</div>
+          <div className="font-nycd text-xl text-indigo-500 subpixel-antialiased mb-1">Let&apos;s Connect</div>
           <h1 className="text-2xl font-bold text-slate-900">Contact our friendly team</h1>
         </header>
         <form>
