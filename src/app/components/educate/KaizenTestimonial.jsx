@@ -29,7 +29,7 @@ const TestimonialKaizen = () => {
               </div>
             </div>
             <p className="mt-8">
-              "Kaizen has been an incredible resource for my children. They are now able to grasp financial concepts in a fun and engaging way. The use of relatable language and Gen Z terms makes learning about money enjoyable for them!"
+            &quot;Kaizen has been an incredible resource for my children. They are now able to grasp financial concepts in a fun and engaging way. The use of relatable language and Gen Z terms makes learning about money enjoyable for them!&quot;
             </p>
           </div>
 
@@ -50,7 +50,7 @@ const TestimonialKaizen = () => {
               </div>
             </div>
             <p className="mt-8">
-              "As a teacher, I appreciate how Kaizen makes financial literacy accessible to my students. The incorporation of modern slang and relatable scenarios keeps them engaged and encourages them to take charge of their financial futures."
+            &quot;As a teacher, I appreciate how Kaizen makes financial literacy accessible to my students. The incorporation of modern slang and relatable scenarios keeps them engaged and encourages them to take charge of their financial futures.&quot;
             </p>
           </div>
 
@@ -71,7 +71,7 @@ const TestimonialKaizen = () => {
               </div>
             </div>
             <p className="mt-8">
-              "I am thrilled with how Kaizen has helped my children understand the importance of budgeting and saving. The content is not only informative but also presented in a way that resonates with their generation, making it easier for them to relate."
+            &quot;I am thrilled with how Kaizen has helped my children understand the importance of budgeting and saving. The content is not only informative but also presented in a way that resonates with their generation, making it easier for them to relate.&quot;
             </p>
           </div>
 
@@ -92,7 +92,7 @@ const TestimonialKaizen = () => {
               </div>
             </div>
             <p className="mt-8">
-              "Kaizen’s approach to teaching finance is refreshing. My students are not only learning essential money management skills but are also enjoying the process. The use of fun language makes complex topics much easier to digest."
+            &quot;Kaizen&apos;s approach to teaching finance is refreshing. My students are not only learning essential money management skills but are also enjoying the process. The use of fun language makes complex topics much easier to digest.&quot;
             </p>
           </div>
 
@@ -113,7 +113,7 @@ const TestimonialKaizen = () => {
               </div>
             </div>
             <p className="mt-8">
-              "Thanks to Kaizen, my kids are excited about learning how to manage their finances. The relatable content encourages them to ask questions and explore financial concepts further, which is a huge win for us as parents!"
+            &quot;Thanks to Kaizen, my kids are excited about learning how to manage their finances. The relatable content encourages them to ask questions and explore financial concepts further, which is a huge win for us as parents!&quot;
             </p>
           </div>
 
@@ -134,7 +134,7 @@ const TestimonialKaizen = () => {
               </div>
             </div>
             <p className="mt-8">
-              "I wholeheartedly recommend Kaizen for any parent looking to enhance their child's understanding of finance. The platform's engaging style makes learning about money management enjoyable, ensuring that students retain what they learn."
+            &quot;I wholeheartedly recommend Kaizen for any parent looking to enhance their child&apos;s understanding of finance. The platform&apos;s engaging style makes learning about money management enjoyable, ensuring that students retain what they learn.&quot;
             </p>
           </div>
         </div>

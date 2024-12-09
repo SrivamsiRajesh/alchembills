@@ -26,7 +26,7 @@ const Calendar = () => {
             Economic Calendar
           </h1>
           <p className="text-base font-normal text-gray-500">
-            An Economic Calendar is your hype squad for financial events! 📅 It keeps you in the know about upcoming economic reports, earnings releases, and market-moving news. Whether you're looking to catch the latest job reports or inflation stats, this calendar helps you stay ahead of the game. Get ready to make informed moves and ride the market waves like a pro! 🌊
+            An Economic Calendar is your hype squad for financial events! 📅 It keeps you in the know about upcoming economic reports, earnings releases, and market-moving news. Whether you&apos;re looking to catch the latest job reports or inflation stats, this calendar helps you stay ahead of the game. Get ready to make informed moves and ride the market waves like a pro! 🌊
           </p>
         </div>
       </div>

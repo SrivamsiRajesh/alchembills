@@ -23,7 +23,7 @@ const KaizenAbout = () => {
             from <span className="text-purple-600">Kaizen</span> {}
           </h1>
           <p className="text-lg font-normal text-gray-500 max-w-md md:max-w-2xl mx-auto">
-            Yo, I'm your homie in finance! 💸 I’m here to break down the basics and help you level up your money game. Whether you're looking to stack those bands or just trying to keep your wallet happy, I've got you covered. From budgeting hacks that’ll save you some serious dough to killer investing strategies that’ll make your money work for you, we’ll dive into it all.
+            Yo, I&apos;m your homie in finance! 💸 I&apos;m here to break down the basics and help you level up your money game. Whether you&apos;re looking to stack those bands or just trying to keep your wallet happy, I&apos;ve got you covered. From budgeting hacks that’ll save you some serious dough to killer investing strategies that’ll make your money work for you, we’ll dive into it all.
           </p>
         </div>
       </div>

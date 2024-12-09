@@ -7,7 +7,7 @@ const Currency = () => {
         <div className="mb-14 text-center">
           <h2 className="text-4xl font-bold text-center text-gray-900 py-5">Currency Cross Rates</h2>
           <p className="text-lg font-normal text-gray-500 max-w-md md:max-w-2xl mx-auto">
-            A Currency Cross Rate is like your cheat sheet for trading currencies without needing the USD! 🌍 It shows you how much one currency is worth compared to another, making it super easy to swap cash when you're traveling or investing.
+            A Currency Cross Rate is like your cheat sheet for trading currencies without needing the USD! 🌍 It shows you how much one currency is worth compared to another, making it super easy to swap cash when you&apos;re traveling or investing.
           </p>
         </div>
         <div className="w-full h-[600px]"> {}
