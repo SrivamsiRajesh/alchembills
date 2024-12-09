@@ -1,4 +1,4 @@
-"use client";
+"use client"; // This indicates that the component uses client-side rendering
 import React, { useRef, useState } from "react";
 import { FaEnvelope } from "react-icons/fa";
 import { motion } from "framer-motion";
@@ -25,12 +25,17 @@ export const AuroraHero = () => {
             </span>
           </span>
         </div>
-        <h1 className="max-w-3xl bg-black bg-clip-text text-center text-6xl font-medium leading-tight text-transparent sm:text-6xl sm:leading-tight md:text-6xl md:leading-tight">
+
+        {/* Increased spacing in header */}
+        <h1 className="max-w-3xl bg-black bg-clip-text text-center text-6xl font-medium leading-tight text-transparent sm:text-6xl sm:leading-tight md:text-6xl md:leading-tight mb-6"> 
           Control your<span className="text-green-500">💲</span>at your fingertips
         </h1>
-        <p className="my-4 max-w-xl text-center text-base leading-relaxed md:text-lg md:leading-relaxed">
+        
+        {/* Adjusted margin for paragraph */}
+        <p className="my-4 max-w-xl text-center text-base leading-relaxed md:text-lg md:leading-relaxed mb-6">
           Join thousands managing their finances, tracking expenses, and making informed decisions with ease
         </p>
+
         <motion.div 
           className="flex items-center bg-white rounded-full shadow-md p-2 w-full max-w-lg"
           whileHover={{ scale: 1.02 }}

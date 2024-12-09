@@ -17,16 +17,16 @@ const Educate = () => {
     <div id="educate" className="bg-gray-50">
       <div className="container mx-auto px-4 py-16 flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 text-center md:text-left">
-          <h1 className="text-4xl md:text-5xl font-bold text-black leading-tight mb-4">
+          <h1 className="text-4xl font-bold text-gray-900 py-5">
             Knowledge
             <br className="md:hidden" />
             <span className="text-purple-500">
-            {' '}is the key to success
+              {' '}is the key to success
               <br className="md:hidden" />
             </span>
           </h1>
-          <p className="mt-4 text-gray-600 text-lg md:text-xl mb-6"> {/* Added margin-bottom */}
-          At Alchem Bills, we provide you with the tools and knowledge to navigate the world of finance. Let&apos;s keep it 100—learning how to turn your savings into investments is key. It&apos;s all about stacking that bread and growing your wealth effectively. Don&apos;t sleep on this opportunity!
+          <p className="text-lg font-normal text-gray-500 max-w-md md:max-w-2xl mx-auto mb-4"> {/* Added margin-bottom */}
+            At Alchem Bills, we provide you with the tools and knowledge to navigate the world of finance. Let&apos;s keep it 100—learning how to turn your savings into investments is key. It&apos;s all about stacking that bread and growing your wealth effectively. Don&apos;t sleep on this opportunity!
           </p>
           <DottedButton /> {/* Added DottedButton component */}
         </div>
