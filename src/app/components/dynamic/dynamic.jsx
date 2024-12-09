@@ -4,7 +4,7 @@ import { FaEnvelope } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { Link as ScrollLink } from 'react-scroll';
 
-export const Educate = () => {
+export const Dynamic = () => {
   return (
     <section className="relative grid min-h-screen place-content-center overflow-hidden bg-gray-50 px-4 py-12 text-black">
       <div className="relative z-10 flex flex-col items-center space-y-4">
@@ -28,10 +28,10 @@ export const Educate = () => {
         </div>
 
         <h1 className="max-w-3xl bg-black bg-clip-text text-center text-6xl font-medium leading-tight text-transparent sm:text-6xl sm:leading-tight md:text-6xl md:leading-tight">
-          Learn with <span className="text-green-500">Kaizen</span> AI 
+          Get updated with us 
         </h1>
         <p className="my-4 max-w-xl text-center text-base leading-relaxed md:text-lg md:leading-relaxed text-lg font-normal text-gray-500 max-w-md md:max-w-2xl mx-auto">
-          Get schooled by Kaizen, your go-to buddy for all things finance! We’re talking investing, stocks, and money moves—all in the freshest Gen Z slang. No boring lectures here, just real talk to help you level up your cash game. Let’s keep it casual and fun!
+        Stay in the loop with all things finance! Our platform is your go-to spot for the freshest news, real-time stock prices, and everything you need to level up your investment game.
         </p> 
       </div>
     </section>
@@ -65,10 +65,9 @@ const SlideTabs = () => {
       style={{ minWidth: '300px' }}
     >
       <Tab setPosition={setPosition}>Home</Tab>
-      <Tab setPosition={setPosition}>About</Tab>
-      <Tab setPosition={setPosition}>Features</Tab>
-      <Tab setPosition={setPosition}>Pricing</Tab>
-      <Tab setPosition={setPosition}>Testimonial</Tab>
+      <Tab setPosition={setPosition}>News</Tab>
+      <Tab setPosition={setPosition}>Calendar</Tab>
+      <Tab setPosition={setPosition}>Currency</Tab>
 
       <Cursor position={position} />
     </ul>
@@ -119,4 +118,4 @@ const Cursor = ({ position }) => {
   );
 };
 
-export default Educate;
+export default Dynamic;

@@ -5,6 +5,7 @@ import AboutKaizen from "./AboutUs";
 import KaizenFeatures from './KaizenFeatures'
 import KaizenPricing from './KaizenPricing'
 import TestimonialKaizen from "./KaizenTestimonial";
+import Footer from "./Footer"
 export default function Home() {
   return (
     <main>
@@ -13,6 +14,7 @@ export default function Home() {
       <KaizenFeatures />
       <KaizenPricing />
       <TestimonialKaizen />
+      <Footer />
     </main>
   );
 }

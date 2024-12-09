@@ -40,7 +40,7 @@ const Features = () => {
           title="DYNAMIC" 
           color="bg-green-300" 
           description="Get the scoop on stock market trends! 📈 Stay woke with real-time data and expert insights to make those smart moves." 
-          link="/dynamic"
+          link="./components/dynamic"
           animation="fade-right"
         />
         <Card 

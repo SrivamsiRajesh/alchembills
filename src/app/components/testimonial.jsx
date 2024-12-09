@@ -78,7 +78,7 @@ const FancyTestimonialsSlider = () => {
 </div>
         </div>
       </div>
-      {/* Text */}
+      {}
       <div className="mb-9 transition-all duration-150 delay-300 ease-in-out">
         <div className="relative flex flex-col" ref={testimonialsRef}>
           {testimonials.map((testimonial, index) => (
@@ -99,7 +99,7 @@ const FancyTestimonialsSlider = () => {
           ))}
         </div>
       </div>
-      {/* Buttons */}
+      {}
       <div className="flex flex-wrap justify-center -m-1.5">
         {testimonials.map((testimonial, index) => (
           <button

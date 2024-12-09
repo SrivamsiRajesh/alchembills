@@ -12,7 +12,7 @@ const TestimonialKaizen = () => {
         </div>
 
         <div className="md:columns-2 lg:columns-3 gap-8 space-y-8">
-          {/* Testimonial 1 */}
+          {}
           <div className="aspect-auto p-8 border border-gray-100 rounded-3xl bg-gray-50 shadow-md">
             <div className="flex gap-4">
               <img
@@ -33,7 +33,7 @@ const TestimonialKaizen = () => {
             </p>
           </div>
 
-          {/* Testimonial 2 */}
+          {}
           <div className="aspect-auto p-8 border border-gray-100 rounded-3xl bg-gray-50 shadow-md">
             <div className="flex gap-4">
               <img
@@ -54,7 +54,7 @@ const TestimonialKaizen = () => {
             </p>
           </div>
 
-          {/* Testimonial 3 */}
+          {}
           <div className="aspect-auto p-8 border border-gray-100 rounded-3xl bg-gray-50 shadow-md">
             <div className="flex gap-4">
               <img
@@ -75,7 +75,7 @@ const TestimonialKaizen = () => {
             </p>
           </div>
 
-          {/* Testimonial 4 */}
+          {}
           <div className="aspect-auto p-8 border border-gray-100 rounded-3xl bg-gray-50 shadow-md">
             <div className="flex gap-4">
               <img
@@ -96,7 +96,7 @@ const TestimonialKaizen = () => {
             </p>
           </div>
 
-          {/* Testimonial 5 */}
+          {}
           <div className="aspect-auto p-8 border border-gray-100 rounded-3xl bg-gray-50 shadow-md">
             <div className="flex gap-4">
               <img
@@ -117,7 +117,7 @@ const TestimonialKaizen = () => {
             </p>
           </div>
 
-          {/* Testimonial 6 */}
+          {}
           <div className="aspect-auto p-8 border border-gray-100 rounded-3xl bg-gray-50 shadow-md">
             <div className="flex gap-4">
               <img

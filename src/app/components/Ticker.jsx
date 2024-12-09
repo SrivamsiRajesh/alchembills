@@ -1,13 +1,13 @@
-"use client"; // This indicates that the component uses client-side rendering
+"use client"; 
 import React, { useEffect } from 'react';
 
 const Ticker = () => {
   useEffect(() => {
-    // Check if the script is already present
+
     const existingScript = document.getElementById('tradingview-ticker-script');
     if (!existingScript) {
       const script = document.createElement('script');
-      script.id = 'tradingview-ticker-script'; // Set an ID for the script
+      script.id = 'tradingview-ticker-script'; 
       script.src = "https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js";
       script.async = true;
       script.innerHTML = JSON.stringify({
@@ -48,7 +48,7 @@ const Ticker = () => {
   }, []);
 
   return (
-    <div className="tradingview-widget-container my-5"> {/* Tailwind CSS margin classes */}
+    <div className="tradingview-widget-container my-5"> {}
       <div className="tradingview-widget-container__widget"></div>
       <div className="tradingview-widget-copyright">
         <a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank">

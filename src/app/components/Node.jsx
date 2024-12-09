@@ -17,12 +17,12 @@ export default function IntegrationDiagram() {
   }
 
   return (
-    <div className="bg-gray-50 w-full"> {/* Removed py-24 to eliminate vertical padding */}
-      <div className="relative max-w-4xl mx-auto h-[400px]"> {/* Moved max-width here and removed any padding */}
-        {/* Background gradient */}
+    <div className="bg-gray-50 w-full"> {}
+      <div className="relative max-w-4xl mx-auto h-[400px]"> {}
+        {}
         <div className="absolute inset-0" />
 
-        {/* Center icon with rotating outer circle */}
+        {}
         <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-24 h-24 flex items-center justify-center">
           <div className="absolute w-32 h-32 border-2 border-purple-500 rounded-full animate-spin-slow"></div>
           <div className="relative z-10 w-24 h-24 bg-white rounded-full shadow-lg flex items-center justify-center">
@@ -32,7 +32,7 @@ export default function IntegrationDiagram() {
           </div>
         </div>
 
-        {/* Glowing lines */}
+        {}
         <svg className="absolute inset-0 w-full h-full" viewBox="0 0 400 400">
           <motion.line
             x1="200"
@@ -90,7 +90,7 @@ export default function IntegrationDiagram() {
           />
         </svg>
 
-        {/* Left side - Crypto related signs */}
+        {}
         <div className="absolute left-1/4 top-1/4 -translate-x-1/2 -translate-y-1/2 w-12 h-12 bg-white rounded-full shadow-lg flex items-center justify-center">
           <div className="relative">
             <div className="absolute inset-0 bg-purple-400 rounded-full blur-xl opacity-50"></div>
@@ -115,7 +115,7 @@ export default function IntegrationDiagram() {
           </div>
         </div>
 
-        {/* Right side - Currency symbols */}
+        {}
         <div className="absolute right-1/4 top-1/4 translate-x-1/2 -translate-y-1/2 w-12 h-12 bg-white rounded-full shadow-lg flex items-center justify-center">
           <div className="text-green-500">
             <DollarSign className="w-6 h-6" />

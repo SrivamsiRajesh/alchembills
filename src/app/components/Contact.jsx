@@ -1,14 +1,14 @@
-"use client"; // This indicates that the component uses client-side rendering
+"use client"; 
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import Spline from '@splinetool/react-spline/next'; // Import Spline
+import Spline from '@splinetool/react-spline/next'; 
 
 const Contact = () => {
   return (
-    <div id="contact" className="bg-gray-50 w-full h-screen flex"> {/* Full height and flex layout */}
-      {/* Left Side: Contact Form */}
-      <div className="w-1/2 px-4 py-24"> {/* Adjust width and padding */}
-        <div className="max-w-xs mx-auto"> {/* Center the form */}
+    <div id="contact" className="bg-gray-50 w-full h-screen flex"> {}
+      {}
+      <div className="w-1/2 px-4 py-24"> {}
+        <div className="max-w-xs mx-auto"> {}
           <header className="mb-6">
             <div className="font-nycd text-xl text-indigo-500 subpixel-antialiased mb-1">Let&apos;s Connect</div>
             <h1 className="text-2xl font-bold text-slate-900">Contact our friendly team</h1>
@@ -36,11 +36,11 @@ const Contact = () => {
         </div>
       </div>
 
-      {/* Right Side: Spline Scene */}
-      <div className="w-1/2 flex justify-center items-center"> {/* Center the Spline scene */}
+      {}
+      <div className="w-1/2 flex justify-center items-center"> {}
         <Spline
           scene="https://prod.spline.design/sBPT5gLcnKIl0Lqs/scene.splinecode" 
-          style={{ width: '100%', height: '100%' }} // Make sure it takes full height and width
+          style={{ width: '100%', height: '100%' }} 
         />
       </div>
     </div>

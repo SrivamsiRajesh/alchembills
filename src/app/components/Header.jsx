@@ -1,4 +1,4 @@
-"use client"; // This indicates that the component uses client-side rendering
+"use client"; 
 import React, { useRef, useState } from "react";
 import { FaEnvelope } from "react-icons/fa";
 import { motion } from "framer-motion";
@@ -9,7 +9,7 @@ export const AuroraHero = () => {
     <section id="home" className="relative grid min-h-screen place-content-center overflow-hidden bg-gray-50 px-4 py-12 text-black">
       <div className="relative z-10 flex flex-col items-center space-y-4">
         <SlideTabsExample />
-        
+
         <div className="flex items-center space-x-2 bg-white rounded-full px-4 py-2 shadow mb-4">
           <div className="flex -space-x-2">
             <img alt="User 1" className="w-8 h-8 rounded-full border-2 border-white" height="32" src="https://storage.googleapis.com/a1aa/image/ulNtRuIekqzYCavIfqo9uAstHhWKv6XYyX9avNAHcSsnIj4TA.jpg" width="32"/>
@@ -26,12 +26,12 @@ export const AuroraHero = () => {
           </span>
         </div>
 
-        {/* Increased spacing in header */}
+        {}
         <h1 className="max-w-3xl bg-black bg-clip-text text-center text-6xl font-medium leading-tight text-transparent sm:text-6xl sm:leading-tight md:text-6xl md:leading-tight mb-6"> 
           Control your<span className="text-green-500">💲</span>at your fingertips
         </h1>
-        
-        {/* Adjusted margin for paragraph */}
+
+        {}
         <p className="my-4 max-w-xl text-center text-base leading-relaxed md:text-lg md:leading-relaxed mb-6">
           Join thousands managing their finances, tracking expenses, and making informed decisions with ease
         </p>

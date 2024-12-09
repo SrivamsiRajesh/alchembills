@@ -1,4 +1,4 @@
-"use client"; // This indicates that the component uses client-side rendering
+"use client"; 
 import React from "react";
 import Link from 'next/link';
 
@@ -25,20 +25,20 @@ const Educate = () => {
               <br className="md:hidden" />
             </span>
           </h1>
-          <p className="text-lg font-normal text-gray-500 max-w-md md:max-w-2xl mx-auto mb-4"> {/* Added margin-bottom */}
+          <p className="text-lg font-normal text-gray-500 max-w-md md:max-w-2xl mx-auto mb-4"> {}
             At Alchem Bills, we provide you with the tools and knowledge to navigate the world of finance. Let&apos;s keep it 100—learning how to turn your savings into investments is key. It&apos;s all about stacking that bread and growing your wealth effectively. Don&apos;t sleep on this opportunity!
           </p>
-          <DottedButton /> {/* Added DottedButton component */}
+          <DottedButton /> {}
         </div>
         <div className="md:w-1/2 mt-8 md:mt-0 md:ml-8 flex justify-center">
-          {/* Placeholder for video */}
+          {}
           <video 
             controls 
             className="rounded-lg shadow-lg w-full" 
             height={400} 
             width={800}
           >
-            <source src="https://file.io/oQ0Xd8fNtxIs" type="video/mp4" /> {/* Replace with your video URL */}
+            <source src="https://file.io/oQ0Xd8fNtxIs" type="video/mp4" /> {}
             Your browser does not support the video tag.
           </video>
         </div>
